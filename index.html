@@ -19,17 +19,18 @@
 <body>
 
  <div class="container-fluid button-container" id="btn-container">
-   <span class='pulse-button pulse' id="btn">Press me</span>
+   <span class='pulse-button pulse' id="btn"></span>
  </div>
 
  <div class="container-fluid video-container" id="video-container">
-   <span class="second-button increasing" id="second-button">Press me</span>
-      
-         <div id="myModal" class="modal fade" role="dialog">
+  <!--<span class="second-button increasing" id="second-button">Press me</span>-->
+   <button type="button" id="second-button" class="btn btn-info btn-lg second-button increasing" data-toggle="modal" data-target="#myModal"></button>
+
+        <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
 
           <!-- Modal content-->
-          <div class="modal-content">
+          <div id="modal-content" class="modal-content">
             <div class="modal-header">
               <h4 class="modal-title">My Notes</h4>
             </div>
